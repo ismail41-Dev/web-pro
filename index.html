@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadre — Minimalist Responsive Photo Gallery Showcase</title>
+    <meta
+      name="description"
+      content="Explore Cadre, a lightweight, accessible, and fast-loading responsive photo gallery website template showcased across mobile, tablet, and desktop views."
+    />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Cadre" />
+    <meta property="og:title" content="Cadre — Minimalist Responsive Photo Gallery Showcase" />
+    <meta
+      property="og:description"
+      content="Explore Cadre, a lightweight, accessible, and fast-loading responsive photo gallery website template showcased across mobile, tablet, and desktop views."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Cadre — Minimalist Responsive Photo Gallery Showcase" />
+    <meta
+      name="twitter:description"
+      content="Lightweight, accessible, and fast-loading responsive photo gallery website showcased across mobile, tablet, and desktop."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..600;1,9..40,400&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Cadre — Minimalist Responsive Photo Gallery Showcase",
+        "applicationCategory": "DesignApplication",
+        "operatingSystem": "All",
+        "inLanguage": ["en", "fr"],
+        "description": "A lightweight, SEO-ready, accessible responsive photo gallery website template presented across mobile, tablet, and desktop carousels.",
+        "offers": {
+          "@type": "Offer",
+          "price": "149",
+          "priceCurrency": "USD"
+        }
+      }
+    </script>
+
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('cadre-theme');
+          var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (saved === 'dark' || (!saved && prefersDark)) {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-neutral-50 text-zinc-900 antialiased dark:bg-zinc-950 dark:text-zinc-100">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

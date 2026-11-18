@@ -1,0 +1,6 @@
+{
+  "name": "Cadre — Minimalist Photo Gallery Showcase",
+  "description": "Lightweight, SEO-optimized bilingual landing page showcasing a responsive photography gallery website across mobile, tablet, and desktop carousels.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
