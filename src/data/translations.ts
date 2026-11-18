@@ -32,7 +32,7 @@ export const IMAGE_ROUTES = {
   tab12: '/src/assets/images/tablet12.png',
 
 /*desktop*/
-  desk01: '/src/assets/images/desk1.png',
+  desk01: '/src/assets/images/desk1.PNG',
   desk02: '/src/assets/images/desk2.png',
   desk03: '/src/assets/images/desk3.png',
   desk04: '/src/assets/images/desk4.png',
